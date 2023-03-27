@@ -37,8 +37,9 @@
 
 
   <script>
+
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
     let item = 'cat';
-    const searchItem = document.getElementById('search');
 
     function onSubmit(e) {
       e.preventDefault();
