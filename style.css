@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   height: 8vh;
+  letter-spacing: 6px;
 }
 
 .searchBar {
