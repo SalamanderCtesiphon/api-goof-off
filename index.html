@@ -4,19 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Giff generator</title>
+  <title>Gif generator</title>
 </head>
 <body>
   <div class="page">
-    <img src="#">
-    <form>
-      <label for="search">Seach for gif</label>
-      <input type="text" id="search">
-      <button type="submit" id="submitButton">Submit</button>
-    </form>
-    <button id="refresh">refresh
-    </button>
+    <div class="header">
+      <h1 class="title">Funny Gif Generator</h1>
+    </div>
+    <div class="searchBar">
+      <button id="refresh">refresh
+      </button>
+      <form class="input">
+        <label for="search">Seach for gif: </label>
+        <input type="text" id="search">
+        <button type="submit" id="submitButton">Submit</button>
+      </form> 
+    </div>
+    <div class="imageDisplay">
+      <img src="#">
+    </div>
+    <div class="footer">
+      <a href="https://github.com/SalamanderCtesiphon" class="footer-link">
+        <h6  >Seamus Quixiote  &#169; <span id="currentYear"></span> <a href="https://www.theodinproject.com/" class="footer-link">for The Odin Project</a></h6>
+      </a>
+    </div>
+    
   </div>
 
 

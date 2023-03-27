@@ -2,4 +2,58 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  width: 80px;
+}
+.input {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.imageDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+  width: auto;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  height: 7vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  letter-spacing: 1.5px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
 }
