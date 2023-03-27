@@ -26,6 +26,11 @@ button {
   border-radius: 20px;
   width: 80px;
 }
+
+#refresh, #submitButton {
+  cursor: pointer;
+}
+
 .input {
   margin-left: 2vw;
   margin-right: 2vw;
